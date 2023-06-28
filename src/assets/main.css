@@ -1,0 +1,74 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+hr {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
+
+.fa {
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  padding: 7px;
+  width: 30px;
+}
+
+.page-body-container {
+  background-color: #ffffff;
+  margin: 30px 0 20px 50px;
+  text-align: left;
+  padding: 40px 30px;
+  border-radius: 15px;
+}
+
+.main-wrapper p {
+  font-family: RobotoThin;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  font-style: normal;
+  color: #3c3b3b;
+}
+
+.main-wrapper .page-body-container a {
+  color: #ee5d6c;
+  font-weight: bolder;
+}
+
+.page-body-container .page-content .page-title,
+.page-body-container .page-content .section-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: PoppinsBold;
+  margin-bottom: 1.5rem;
+}
+
+.page-body-container .page-content .page-title:after,
+.page-body-container .page-content .section-title:after {
+  content: '';
+  display: inline-block;
+  height: 0.5em;
+  vertical-align: sub;
+  width: 35%;
+  margin-right: -100%;
+  margin-left: 15px;
+  border-top: 3px solid #eeaf60;
+  margin-bottom: 3px;
+}
