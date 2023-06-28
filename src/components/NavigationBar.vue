@@ -16,12 +16,12 @@ import { RouterLink } from 'vue-router'
           Resume
         </RouterLink>
       </li>
-      <li class="nav-item" role="presentation">
+      <!-- <li class="nav-item" role="presentation">
         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#Work">
           <span class="fa fa-briefcase"></span>
           Work
         </a>
-      </li>
+      </li> -->
       <li class="nav-item" role="presentation">
           <RouterLink to="/contact" class="nav-link">
             <span class="fa fa-address-book"></span>
