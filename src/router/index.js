@@ -4,7 +4,13 @@ import HomeView from '../views/HomeView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   scrollBehavior(to, from, savedPosition) {
-    return { left: 0, top: 0, behavior: "smooth" };
+    var rect = document.querySelector(".page-body-container").getBoundingClientRect();
+    if(rect.top <=0)
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve({ el:".page-body-container", left: 0, top: 0, behavior: "smooth" })
+        }, 500)
+      })
   },
   routes: [
     {

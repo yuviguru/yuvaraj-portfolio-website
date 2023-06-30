@@ -84,7 +84,7 @@ import { RouterView } from 'vue-router'
       <div class="col-12 col-lg-8 page-container">
         <NavigationBar />
         <router-view v-slot="{ Component }">
-          <transition name="route" mode="out-in" appear>
+          <transition enter-active-class="animate__animated animate__fadeInLeft" leave-active-class="animate__animated animate__fadeOutLeft" mode="out-in" appear>
             <component :is="Component" :key="$route.path" />
           </transition>
         </router-view>
@@ -94,7 +94,7 @@ import { RouterView } from 'vue-router'
 </template>
 
 <style>
-.route-enter-from {
+/* .route-enter-from {
   opacity: 0;
   transform: translateY(100px)
 }
@@ -105,7 +105,7 @@ import { RouterView } from 'vue-router'
 .route-leave-to {
   opacity: 0;
   transform: translateY(100px)
-}
+} */
 .page-container {
   text-align: right;
   text-align: -webkit-right;
