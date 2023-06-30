@@ -195,7 +195,7 @@ header {
 @media (max-width: 480px) {
   .navbar.mobile-view .nav-link {
     font-size: 0;
-    transition: 1s;
+    transition: 0.25s;
     left: 0;
   }
   .navbar.mobile-view .router-link-active {
