@@ -130,7 +130,7 @@ header {
 .navbar.mobile-view {
   border-radius: 50px;
   margin: 15px;
-  background: linear-gradient(180deg, rgb(238 93 108 / 73%) -1.56%, rgb(238 175 97 / 73%) 100%);
+  background: linear-gradient(180deg, rgb(238 93 108 / 55%) -1.56%, rgb(238 175 97 / 40%) 100%);
 }
 .navbar .navbar-brand {
   margin-left: 15px;
