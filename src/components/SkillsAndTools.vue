@@ -133,5 +133,11 @@ box-shadow: 0px 0px 10px 8px rgba(238,175,96,0.78); */
   height: 70%;
   margin-top: 15%;
 }
+
+@media (max-width: 840px) {
+  legend{
+    font-weight: bolder;
+  }
+}
 </style>
   

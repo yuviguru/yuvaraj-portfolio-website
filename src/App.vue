@@ -8,7 +8,7 @@ import { RouterView } from 'vue-router'
     <div class="profile-logo">
       <img src="@/assets/img/logo2.png" />
     </div>
-    <div class="profile-main row">
+    <div class="profile-main row g-0">
       <div class="profile-information col-12 col-lg-4 sticky-top">
         <img class="profile-image" src="@/assets/img/profile-home.jpg" />
         <h1>Yuvaraj Guru</h1>
@@ -208,7 +208,7 @@ import { RouterView } from 'vue-router'
 }
 
 .profile-logo {
-  margin-bottom: 150px;
+  margin-bottom: 200px;
 }
 
 .profile-main {
@@ -224,7 +224,7 @@ import { RouterView } from 'vue-router'
   text-align: center;
 }
 
-.profile-image {
+.profile-information .profile-image {
   position: absolute;
   top: -25%;
   left: 0;
@@ -277,8 +277,23 @@ import { RouterView } from 'vue-router'
   display: flex;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1022px) {
   .profile-information {
+    display: none;
+  }
+  .page-container {
+    width: 100% !important;
+  }
+  .profile-logo {
+    margin: 0;
+  }
+}
+
+@media (max-width: 840px) {
+  .main-wrapper {
+    padding: 0;
+  }
+  .profile-logo {
     display: none;
   }
 }

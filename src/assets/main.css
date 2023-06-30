@@ -49,6 +49,10 @@ hr {
   font-weight: bolder;
 }
 
+.main-wrapper .page-body-container a.fa {
+  color: white;
+}
+
 .page-body-container .page-content .page-title,
 .page-body-container .page-content .section-title {
   font-weight: 700;
@@ -66,9 +70,28 @@ hr {
   display: inline-block;
   height: 0.5em;
   vertical-align: sub;
-  width: 35%;
   margin-right: -100%;
   margin-left: 15px;
   border-top: 3px solid #eeaf60;
   margin-bottom: 3px;
+}
+
+@media (max-width: 1022px) {
+  .page-body-container {
+    margin: 40px 0;
+  }
+}
+@media (max-width: 840px) {
+  .page-body-container {
+    margin: 0;
+    border-radius: 0;
+    padding-bottom: 100px;
+    background-color: #ffffff61;
+  }
+}
+@media (min-width: 840px) {
+  .page-body-container .page-content .page-title:after,
+  .page-body-container .page-content .section-title:after { 
+    width: 35%;
+  }
 }

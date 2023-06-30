@@ -6,6 +6,78 @@
       <div id="About" class="page-content">
         <section>
           <h3 class="page-title">About ME</h3>
+          <div class="col-12 profile-information-mobile-view">
+            <img class="profile-image my-5" src="@/assets/img/profile-home.jpg" />
+            <h1>Yuvaraj Guru</h1>
+            <p>Full stack developer</p>
+            <div class="social-icons">
+              <div class="social-icon-linkedin">
+                <a
+                  href="https://www.linkedin.com/in/yuvaraj-guru/"
+                  class="fa fa-linkedin"
+                  target="_blank"
+                ></a>
+              </div>
+              <div class="social-icon-github">
+                <a href="https://github.com/yuviguru" class="fa fa-github" target="_blank"></a>
+              </div>
+              <div class="social-icon-youtube">
+                <a
+                  href="https://www.youtube.com/channel/UC6TiYa9QumNo5dUAKZBl6LA"
+                  class="fa fa-youtube"
+                  target="_blank"
+                ></a>
+              </div>
+              <div class="social-icon-facebook">
+                <a
+                  href="https://www.facebook.com/yuviinsane"
+                  class="fa fa-facebook"
+                  target="_blank"
+                ></a>
+              </div>
+            </div>
+            <ul class="personal-details">
+              <li class="personal-detail-container">
+                <div class="personal-detail-icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="personal-detail-info">
+                  <label>Phone</label>
+                  <p>+91 - 8668138534</p>
+                </div>
+              </li>
+              <hr class="mt-1 mb-2" />
+              <li class="personal-detail-container">
+                <div class="personal-detail-icon">
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <div class="personal-detail-info">
+                  <label>Email</label>
+                  <p>k.yuvarajguru@gmail.com</p>
+                </div>
+              </li>
+              <hr class="mt-1 mb-2" />
+              <li class="personal-detail-container">
+                <div class="personal-detail-icon">
+                  <i class="fa fa-map-pin"></i>
+                </div>
+                <div class="personal-detail-info">
+                  <label>Location</label>
+                  <p>Chennai, Tamilnadu, India</p>
+                </div>
+              </li>
+              <hr class="mt-1 mb-2 ml-3 mr-3" />
+              <li class="personal-detail-container">
+                <div class="personal-detail-icon">
+                  <i class="fa fa-calendar"></i>
+                </div>
+                <div class="personal-detail-info">
+                  <label>Birthday</label>
+                  <p>26th May 1994</p>
+                </div>
+              </li>
+            </ul>
+          </div>
           <p class="profile-summary">
             I'm a Full stack web developer from India,<br />
             Helping people/brands turn their ideas into apps and sites which makes their lives
@@ -109,4 +181,33 @@
   border-top: 3px solid #eeaf60;
 }
 
+.profile-information-mobile-view {
+  text-align: center;
+}
+
+.profile-information-mobile-view .profile-image {
+  filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  /* filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25)); */
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 230px;
+  border-radius: 20px;
+}
+
+.profile-information-mobile-view .social-icons {
+  width: fit-content;
+  margin: auto;
+  gap: 20px;
+}
+
+.profile-information-mobile-view .personal-details {
+  background-color: #f9f9f9;
+  margin: 20px 0;
+}
+
+@media (min-width: 1023px) {
+  .profile-information-mobile-view {
+    display: none;
+  }
+}
 </style>
