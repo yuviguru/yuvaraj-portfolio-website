@@ -204,7 +204,7 @@ header {
     left: 0;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .navbar .navbar-brand {
     display: none;
   }

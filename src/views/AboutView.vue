@@ -16,8 +16,7 @@ import SkillsAndTools from '@/components/SkillsAndTools.vue'
               <div class="company-details">
                 <button class="company-header" type="button" data-bs-toggle="collapse" data-bs-target="#companyVirtusa"
                   aria-expanded="false" aria-controls="companyVirtusa">
-                  <h4 class="company-name">Virtusa Consulting Services Pvt Ltd <span class="company-info">- Chennai, Tamil
-                      Nadu, India</span></h4>
+                  <h4 class="company-name">Virtusa Consulting Services Pvt Ltd <span class="company-info">-&nbsp;Chennai,&nbsp;Tamil&nbsp;Nadu,&nbsp;India</span></h4>
                   <h4 class="company-title">Senior Consultant - Technology</h4>
                   <h4 class="company-info">Jul 2021 - Present</h4>
                 </button>
@@ -61,8 +60,7 @@ import SkillsAndTools from '@/components/SkillsAndTools.vue'
               <div class="company-details">
                 <button class="company-header" type="button" data-bs-toggle="collapse" data-bs-target="#companyCts"
                   aria-expanded="false" aria-controls="companyCts">
-                  <h4 class="company-name">Cognizant Technology Solutions <span class="company-info">- Chennai, Tamil
-                      Nadu, India</span></h4>
+                  <h4 class="company-name">Cognizant Technology Solutions <span class="company-info">-&nbsp;Chennai,&nbsp;Tamil&nbsp;Nadu,&nbsp;India</span></h4>
                   <h4 class="company-title">Associate - Projects</h4>
                   <h4 class="company-info">Jan 2020 - May 2021</h4>
                 </button>
@@ -106,8 +104,7 @@ import SkillsAndTools from '@/components/SkillsAndTools.vue'
               <div class="company-details">
                 <button class="company-header" type="button" data-bs-toggle="collapse" data-bs-target="#companyColan"
                   aria-expanded="false" aria-controls="companyColan">
-                  <h4 class="company-name">Colan Infotech Pvt Ltd <span class="company-info">- Chennai, Tamil Nadu,
-                      India</span></h4>
+                  <h4 class="company-name">Colan Infotech Pvt Ltd <span class="company-info">-&nbsp;Chennai,&nbsp;Tamil&nbsp;Nadu,&nbsp;India</span></h4>
                   <h4 class="company-title">Software Development Engineer</h4>
                   <h4 class="company-info">Aug 2018 - Nov 2019</h4>
                 </button>
@@ -138,8 +135,7 @@ import SkillsAndTools from '@/components/SkillsAndTools.vue'
               <div class="company-details">
                 <button class="company-header" type="button" data-bs-toggle="collapse" data-bs-target="#companyTrenmax"
                   aria-expanded="false" aria-controls="companyTrenmax">
-                  <h4 class="company-name">Trenmax Software Solutions Pvt Ltd <span class="company-info">- Chennai, Tamil
-                      Nadu, India</span></h4>
+                  <h4 class="company-name">Trenmax Software Solutions Pvt Ltd <span class="company-info">-&nbsp;Chennai,&nbsp;Tamil&nbsp;Nadu,&nbsp;India</span></h4>
                   <h4 class="company-title">Software Development Engineer</h4>
                   <h4 class="company-info">Apr 2016 - Jul 2018</h4>
                 </button>
@@ -217,7 +213,7 @@ import SkillsAndTools from '@/components/SkillsAndTools.vue'
 }
 
 .company-logo {
-  width: 12%;
+  width: 100px;
 }
 
 .company-logo img {
@@ -287,6 +283,16 @@ import SkillsAndTools from '@/components/SkillsAndTools.vue'
   font-size: 12px;
   font-family: RobotoRegular;
   font-weight: normal;
+}
+
+@media (max-width: 440px) {
+  .company-logo {
+    display: none;
+  }
+  
+  .career-timeline ul {
+    padding-left: 1rem;
+  }
 }
 </style>
 
