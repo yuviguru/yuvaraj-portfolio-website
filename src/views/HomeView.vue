@@ -43,7 +43,7 @@
                 </div>
                 <div class="personal-detail-info">
                   <label>Phone</label>
-                  <p>+91 - 8668138534</p>
+                  <a href="tel:+91 - 8668138534"><p>+91 - 8668138534</p></a>
                 </div>
               </li>
               <hr class="mt-1 mb-2" />
@@ -84,8 +84,8 @@
             simple<br /><br />
             I focus on designing smooth user-interfaces which converts website visitors into your
             potential customers.<br /><br />
-            When I am not working, I usually explore and play different games in various platforms / play batmitton.
-            I also own a youtube channel where I try to create content when I find some time. Are you stressed/bored? come
+            When I am not working, I usually explore and play different games in various platforms / play badminton.
+            Are you stressed/bored? come
             talk/play with me and blow off some steam.<br /><br />
             <a href="#">Hire me</a>, Lets create something awesome together!
           </p>
